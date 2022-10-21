@@ -1,4 +1,4 @@
-# CCreate Azure AD Group for AKS Admins
+# Create Azure AD Group for AKS Admins
 
 The purpose of this lab to create an Azure AD Group for AKS Admins. These "admins" will be the group of users that will be able to access the AKS cluster using kubectl
 

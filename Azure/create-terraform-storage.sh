@@ -1,7 +1,7 @@
 #!/bin/sh
 
 RESOURCE_GROUP_NAME="devops-rg-1"
-STORAGE_ACCOUNT_NAME="devops-sa-1"
+STORAGE_ACCOUNT_NAME="devopsarropemike1"
 
 # Create Resource Group
 az group create -l uksouth -n $RESOURCE_GROUP_NAME
