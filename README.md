@@ -53,7 +53,7 @@ In this scenario, the Terraform State file will be stored in remote state locati
 2. Terraform - The purpose of the Terraform section is to create all of the Azure cloud services you'll need from an environment/infrastructure perspective to run the Uber application.
     - ✅[Create ACR](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/1-Create-ACR.md)
     - ✅[Create VNET](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/2-Create-VNET.md)
-    - [Create Log Analytics](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/3-Create-Log-Analytics.md)
+    - ✅[Create Log Analytics](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/3-Create-Log-Analytics.md)
     - [Create AKS Cluster with relevant IAM roles](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/4-Create-AKS-Cluster-IAM-Roles.md)
 
 3. Docker - The purpose of the Docker section is to create a Docker image from the app that the organization is running on-prem (the uber app), containerize it, and store the container inside of a container repository. For the container repo, you'll use Azure ECR.
