@@ -1,0 +1,60 @@
+
+Acquiring state lock. This may take a few moments...
+data.azurerm_resource_group.resource_group: Reading...
+data.azurerm_resource_group.resource_group: Read complete after 1s [id=/subscriptions/123fbae4-4347-45eb-8421-a163469ff8da/resourceGroups/rropemike-rg]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # azurerm_log_analytics_solution.Log_Analytics_Solution_ContainerInsights will be created
+  + resource "azurerm_log_analytics_solution" "Log_Analytics_Solution_ContainerInsights" {
+      + id                    = (known after apply)
+      + location              = "uksouth"
+      + resource_group_name   = "rropemike-rg"
+      + solution_name         = "ContainerInsights"
+      + workspace_name        = "rropemike-la"
+      + workspace_resource_id = (known after apply)
+
+      + plan {
+          + name      = (known after apply)
+          + product   = "OMSGallery/ContainerInsights"
+          + publisher = "Microsoft"
+        }
+    }
+
+  # azurerm_log_analytics_workspace.Log_Analytics_WorkSpace will be created
+  + resource "azurerm_log_analytics_workspace" "Log_Analytics_WorkSpace" {
+      + daily_quota_gb                     = -1
+      + id                                 = (known after apply)
+      + internet_ingestion_enabled         = true
+      + internet_query_enabled             = true
+      + location                           = "uksouth"
+      + name                               = "rropemike-la"
+      + portal_url                         = (known after apply)
+      + primary_shared_key                 = (sensitive value)
+      + reservation_capacity_in_gb_per_day = (known after apply)
+      + reservation_capcity_in_gb_per_day  = (known after apply)
+      + resource_group_name                = "rropemike-rg"
+      + retention_in_days                  = (known after apply)
+      + secondary_shared_key               = (sensitive value)
+      + sku                                = "PerGB2018"
+      + workspace_id                       = (known after apply)
+    }
+
+Plan: 2 to add, 0 to change, 0 to destroy.
+╷
+│ Warning: Version constraints inside provider configuration blocks are deprecated
+│ 
+│   on main.tf line 11, in provider "azurerm":
+│   11:     version = "~> 2.0"
+│ 
+│ Terraform 0.13 and earlier allowed provider version constraints inside the provider configuration block, but that is now deprecated and will be removed
+│ in a future version of Terraform. To silence this warning, move the provider version constraint into the required_providers block.
+╵
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply" now.
+Releasing state lock. This may take a few moments...
