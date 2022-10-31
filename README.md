@@ -54,11 +54,11 @@ In this scenario, the Terraform State file will be stored in remote state locati
     - ✅[Create ACR](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/1-Create-ACR.md)
     - ✅[Create VNET](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/2-Create-VNET.md)
     - ✅[Create Log Analytics](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/3-Create-Log-Analytics.md)
-    - [Create AKS Cluster with relevant IAM roles](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/4-Create-AKS-Cluster-IAM-Roles.md)
+    - ✅[Create AKS Cluster with relevant IAM roles](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/4-Create-AKS-Cluster-IAM-Roles.md)
 
-3. Docker - The purpose of the Docker section is to create a Docker image from the app that the organization is running on-prem (the uber app), containerize it, and store the container inside of a container repository. For the container repo, you'll use Azure ECR.
-    - [Create The Docker Image](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Docker/1-Create-Docker-Image.md)
-    - [Log Into Azure ACR Repository](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Docker/Push%20Image%20To%20ACR.md)
+3. Docker - The purpose of the Docker section is to create a Docker image from the app that the organization is running on-prem (the uber app), containerize it, and store the container inside of a container repository. For the container repo, you'll use Azure ACR.
+    - ✅[Create The Docker Image](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Docker/1-Create-Docker-Image.md)
+    - ✅[Log Into Azure ACR Repository](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Docker/Push%20Image%20To%20ACR.md)
 4. Kubernetes - The purpose of the Kubernetes section is to connect to AKS locally and to write the Kubernetes manifest to deploy the Python Uber app.
     - [Connect To ACR From The Terminal](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/kubernetes_manifest/1-Connect-To-ACR.md)
     - [Create A Kubernetes Manifest](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/kubernetes_manifest/2-Create-Kubernetes-Manifest.md)
