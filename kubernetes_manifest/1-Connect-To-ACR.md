@@ -7,7 +7,8 @@ Once you authenticate to AKS from your local terminal, a `kubeconfig` gets store
 ## Connecting To AKS
 
 1. Run the following command to connect to AKS:
-`az aks get-credentials --resource-group devopsthehardway-rg --name devopsthehardwayaks`
+`az aks get-credentials --resource-group rropemike-rg --name rropemikeaks` > In order to login without any issues please use the --admin tag[. Please reference to the following link ](https://chamindac.blogspot.com/2022/09/resolve-unable-to-connect-to-server.html)
+
 
 2. Once connected, you should be able to run commands like the following to confirm you're connected:
 `kubectl get nodes`

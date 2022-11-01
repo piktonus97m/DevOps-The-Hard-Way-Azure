@@ -10,7 +10,6 @@ spec:
     port: 80
     targetPort: 5000
   type: LoadBalancer
-
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -28,7 +27,7 @@ spec:
     spec:
       containers:
       - name: uber-ui
-        image: devopsthehardwayacr.azurecr.io/uberapp:v1
+        image: rropemikeacr.azurecr.io/uberapp:v1
         ports:
         - containerPort: 5000
 ---
