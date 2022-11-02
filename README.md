@@ -64,6 +64,18 @@ In this scenario, the Terraform State file will be stored in remote state locati
     -✅[Create A Kubernetes Manifest](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/kubernetes_manifest/2-Create-Kubernetes-Manifest.md)
     -✅[Deploy Uber App into Kubernetes](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/kubernetes_manifest/3-Deploy-Uber-App.md)
 5. Automated Testing - The purpose of the Automation Testing section is to ensure that all of the Terraform code is performing as it should be from a policy, security, and static code analysis perspective.
-    - [Install And Run Checkov](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Terraform-Static-Code-Analysis/1-Checkov-For-Terraform.md)
+    - ✅[Install And Run Checkov](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Terraform-Static-Code-Analysis/1-Checkov-For-Terraform.md)
 6. CICD - The purpose of this section is to automatically create an AKS cluster with CICD using GitHub Actions
-    - [Create a GitHub Actions CICD pipeline](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/5-Run-CICD-For-AKS-Cluster.md)
+    - ✅[Create a GitHub Actions CICD pipeline](https://github.com/piktonus97m/DevOps-The-Hard-Way-Azure/blob/main/Terraform-AZURE-Services-Creation/5-Run-CICD-For-AKS-Cluster.md)
+   
+## My notes
+
+While solving this challenge, I noticed that I like Azure more than AWS for some reason. It has a more opinionated way to show service categories and actions to perform. Without the need to search around how to perform something. 
+
+Being honest I was not able to take advantage of my $200 credits, since this lab ask you to create 3 K8S nodes. Which is very expensive in the long run. After creating my cluster, I left the challenge about two or three days, and it consumed almost my quota. :( Not Azure fault but mine. So I will try to keep my free tier of services, and use another account if needed. 
+
+It was not hard at all to learn Azure platform, since most of the knowledge I have from IBM Cloud and AWS, is applied here. Resource Groups, workspaces, user management, cloud services creation, etc. 
+
+The app was running perfectly on the K8s cluster without issues. 
+
+I will look forward to learn more about Azure. 
